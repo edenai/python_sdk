@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "edenai_sdk"
+version = "0.1.0a1"
+description = "Python sdk for EdenAI workflows"
+authors = ["Jasper Hoving <contact@edenai.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
