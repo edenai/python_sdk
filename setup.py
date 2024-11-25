@@ -16,7 +16,7 @@ def parse_requirements(filename):
 
 setup(
     name="edenai_sdk",
-    version="0.1.0a1",
+    version="0.1.0a2",
     packages=find_packages(),
     author="Eden AI",
     author_email="contact@edenai.co",
