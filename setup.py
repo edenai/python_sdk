@@ -20,7 +20,7 @@ setup(
     packages=find_packages(),
     author="Eden AI",
     author_email="contact@edenai.co",
-    description="EdenAI SDKfor ython",
+    description="EdenAI SDK for python",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/edenai/python_sdk",
