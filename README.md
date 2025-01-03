@@ -1,6 +1,10 @@
-# Python SDK for EdenAI workflows
+# Python SDK for Eden AI workflows
 
-This package is in **alpha** and the api can still change
+Build and update your Eden AI workflows straight from your python code, without needing a UI!  
+This way you can easily commit changes to your workflow, as all you need to do is putting this 
+code into a git repo 🚀
+
+This package is in **alpha** and the API can still change
 
 ## Installation
 
@@ -11,7 +15,7 @@ pip install edenai_sdk
 ## Example
 
 You can use `client.create_or_update(name="my_unique_name", data=data)` to create a workflow. If a workflow with this name already exists
-it will update the workflow. You can always view the workflow you've build in the UI in the [EdenAI App](https://app.edenai.run/v2/workflows)
+it will update the workflow. You can always view the workflow you've build in the UI in the [Eden AI App](https://app.edenai.run/v2/workflows)
 
 To see which parameters are availabe for each feature, you can check our [api docs](https://docs.edenai.co/reference/text_chat_create)
 
