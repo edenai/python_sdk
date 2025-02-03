@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "edenai_sdk"
-version = "0.1.0a3"
+version = "0.1.0a4"
 description = "Python sdk for EdenAI workflows"
 authors = ["Jasper Hoving <contact@edenai.co>"]
 readme = "README.md"
